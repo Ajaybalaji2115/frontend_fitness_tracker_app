@@ -1,0 +1,143 @@
+/* .layout {
+  display: flex;
+  height: 100vh;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6f8;
+  overflow-y: auto;
+} */
+
+
+
+
+
+
+
+
+
+/* 
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e0f2fe, #fef9c3);
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.main-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 1024px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main-content {
+    margin: 15px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-content {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+  .nav-link {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .profile-page, .profile-form {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-page h2, .profile-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile-form input, .profile-form button {
+    padding: 10px;
+  }
+} */
+
+
+
+
+
+
+/* Layout container */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e0f2fe, #fef9c3);
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.main-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main-content {
+    margin: 15px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    margin: 10px;
+    padding: 15px;
+  }
+}

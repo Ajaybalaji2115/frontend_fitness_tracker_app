@@ -1,0 +1,168 @@
+/* Container for the chart
+.progress-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #f8f9fa; /* light background */
+  /* border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+} */ */
+
+/* Header */
+/* .progress-container h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+} */
+
+/* Dropdown */
+/* .progress-container select {
+  padding: 8px 12px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} */
+/* 
+.progress-container select:hover {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+} */
+
+/* Chart area */
+/* .chart-wrapper {
+  position: relative;
+  height: 400px;
+  width: 100%;
+} */
+
+/* Responsive */
+/* @media (max-width: 768px) {
+  .progress-container {
+    padding: 1rem;
+  }
+  .chart-wrapper {
+    height: 300px;
+  }
+  .progress-container h2 {
+    font-size: 1.5rem;
+  }
+} */
+/* Container for the chart */
+/* .progress-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #f8f9fa; /* light background */
+  /* border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+} */
+
+/* Header */
+/* .progress-container h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+} */
+
+/* Dropdown */
+/* .progress-container select {
+  padding: 8px 12px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.progress-container select:hover {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
+
+/* Chart area */
+/* .chart-wrapper {
+  position: relative;
+  height: 400px;
+  width: 100%;
+} */ */
+
+/* Responsive */
+/* @media (max-width: 768px) {
+  .progress-container {
+    padding: 1rem;
+  }
+  .chart-wrapper {
+    height: 300px;
+  }
+  .progress-container h2 {
+    font-size: 1.5rem;
+  }
+} */ 
+ .progress-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #f8f9fa; /* light background */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.progress-container h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Dropdown */
+.progress-container select {
+  padding: 8px 12px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.progress-container select:hover {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
+
+/* Chart area */
+.chart-wrapper {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .progress-container {
+    padding: 1rem;
+  }
+  .chart-wrapper {
+    height: 300px;
+  }
+  .progress-container h2 {
+    font-size: 1.5rem;
+  }
+}
+

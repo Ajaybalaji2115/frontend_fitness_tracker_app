@@ -1,0 +1,116 @@
+.assignment-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.assignment-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+.assignment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.assignment-form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.assignment-form select,
+.assignment-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.assignment-form select:focus,
+.assignment-form input:focus {
+  border-color: #ff6600;
+  outline: none;
+}
+
+.assignment-btn {
+  background: #ff6600;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.assignment-btn:hover {
+  background: #e65c00;
+}
+
+.assigned-exercises {
+  margin-top: 30px;
+}
+
+.assigned-exercises h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.exercise-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafafa;
+  transition: 0.3s;
+}
+
+.exercise-item:hover {
+  background: #fdf0e6;
+}
+
+.exercise-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise-actions button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.exercise-actions .edit-btn {
+  background: #007bff;
+  color: white;
+}
+
+.exercise-actions .edit-btn:hover {
+  background: #0056b3;
+}
+
+.exercise-actions .delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.exercise-actions .delete-btn:hover {
+  background: #a71d2a;
+}

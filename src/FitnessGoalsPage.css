@@ -1,0 +1,998 @@
+/* .fitness-goals-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.fitness-goals-page h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-container,
+.list-container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h3,
+.list-container h3 {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-container input,
+.form-container select {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-actions button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.form-actions button[type="submit"]:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.form-actions button[type="button"] {
+  background-color: #ef4444;
+  color: white;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #dc2626;
+  transform: translateY(-2px);
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-container li {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-container li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.list-container h4 {
+  margin: 0 0 0.5rem 0;
+  color: #1f2937;
+  font-size: 1.1rem;
+}
+
+.list-container p,
+.list-container small {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.item-actions button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.item-actions button:first-child {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.item-actions button:first-child:hover {
+  background-color: #d97706;
+}
+
+.item-actions button:last-child {
+  background-color: #ef4444;
+  color: white;
+}
+
+.item-actions button:last-child:hover {
+  background-color: #dc2626;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.fitness-goals-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.fitness-goals-page h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+} */
+
+/* Container with form and goals list */
+/* .content-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+} */
+
+/* Form container */
+/* .form-container,
+.list-container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+} */
+/* 
+.form-container:hover,
+.list-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
+}
+
+.form-container h3,
+.list-container h3 {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Form inputs */
+/* 
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-container input,
+.form-container select {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+} */ 
+
+/* Buttons */
+/* .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-actions button {
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-actions button[type="submit"] {
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+  color: #fff;
+}
+
+.form-actions button[type="submit"]:hover {
+  background: linear-gradient(90deg, #6366f1, #4f46e5);
+  transform: translateY(-2px);
+}
+
+.form-actions button[type="button"] {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.form-actions button[type="button"]:hover {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+  transform: translateY(-2px);
+} */
+
+/* Goals list */
+/* .list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-container li {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-container li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.list-container h4 {
+  margin: 0 0 0.5rem 0;
+  color: #1f2937;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.list-container p,
+.list-container small {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+Item actions
+.item-actions button {
+  margin-left: 0.5rem;
+  padding: 0.55rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.item-actions button:first-child {
+  background: linear-gradient(90deg, #f59e0b, #d97706);
+  color: white;
+}
+
+.item-actions button:first-child:hover {
+  background: linear-gradient(90deg, #d97706, #f59e0b);
+}
+
+.item-actions button:last-child {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.item-actions button:last-child:hover {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+}
+
+/* Responsive tweaks */
+/* @media (max-width: 992px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+
+  .form-container,
+  .list-container {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-actions button,
+  .item-actions button {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+} */
+ 
+/* FitnessGoalsPage.css */
+
+/* .fitness-goals-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+}
+
+.fitness-goals-page h2 {
+  text-align: center;
+  color: #4f46e5;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-container,
+.list-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.form-container:hover,
+.list-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.12);
+}
+
+.form-container h3,
+.list-container h3 {
+  color: #374151;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-container input,
+.form-container select {
+  padding: 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-actions button {
+  padding: 0.9rem 2.2rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-actions button[type="submit"] {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+}
+
+.form-actions button[type="submit"]:hover {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+
+.form-actions button[type="button"] {
+  background: linear-gradient(135deg, #ef4444, #f87171);
+  color: #fff;
+}
+
+.form-actions button[type="button"]:hover {
+  background: linear-gradient(135deg, #f87171, #ef4444);
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  border-left: 6px solid transparent;
+}
+
+.goal-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+}
+
+.goal-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: #111827;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.goal-info p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #6b7280;
+}
+
+.status-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.completed .status-badge {
+  background: #10b981;
+}
+
+.in_progress .status-badge {
+  background: #f59e0b;
+}
+
+.pending .status-badge {
+  background: #3b82f6;
+}
+
+/* Progress Bar */
+/* .progress-bar-container {
+  width: 100%;
+  background: #e5e7eb;
+  border-radius: 8px;
+  margin-top: 1rem;
+  height: 16px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+  border-radius: 8px;
+  transition: width 0.6s ease-in-out;
+}
+
+.item-actions button {
+  margin-left: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+} */
+/* 
+.item-actions button:first-child {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  color: #fff;
+}
+
+.item-actions button:first-child:hover {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.item-actions button:last-child {
+  background: linear-gradient(135deg, #ef4444, #f87171);
+  color: #fff;
+}
+
+.item-actions button:last-child:hover {
+  background: linear-gradient(135deg, #f87171, #ef4444);
+}
+
+@media (max-width: 480px) {
+  .form-actions button,
+  .item-actions button {
+    padding: 0.55rem 1.2rem;
+    font-size: 0.95rem;
+  }
+} */ 
+ .fitness-goals-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  position: relative;
+}
+
+.fitness-goals-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.fitness-goals-page h2 {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  position: relative;
+  z-index: 1;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-container,
+.list-container {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: 
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.form-container::before,
+.list-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+  border-radius: 24px 24px 0 0;
+}
+
+.form-container:hover,
+.list-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 32px 64px -12px rgba(0, 0, 0, 0.25),
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.form-container h3,
+.list-container h3 {
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 1rem;
+  letter-spacing: -0.025em;
+}
+
+.form-container h3::after,
+.list-container h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 2px;
+}
+
+.form-container input,
+.form-container select {
+  padding: 1.1rem 1.3rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.form-container input::placeholder {
+  color: #64748b;
+  font-weight: 400;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 
+    0 0 0 4px rgba(102, 126, 234, 0.15),
+    0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 1);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-actions button {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.form-actions button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left 0.6s;
+}
+
+.form-actions button:hover::before {
+  left: 100%;
+}
+
+.form-actions button[type="submit"] {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.form-actions button[type="submit"]:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
+}
+
+.form-actions button[type="button"] {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 25px rgba(240, 147, 251, 0.4);
+}
+
+.form-actions button[type="button"]:hover {
+  background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(240, 147, 251, 0.6);
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(248, 250, 252, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 6px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.goal-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(180deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
+}
+
+.goal-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(102, 126, 234, 0.2);
+}
+
+.goal-item:hover::before {
+  width: 100%;
+  opacity: 0.05;
+}
+
+.goal-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: #1e293b;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.goal-info p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #64748b;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.status-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #ffffff;
+  letter-spacing: 0.025em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.completed .status-badge {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+}
+
+.in_progress .status-badge {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+}
+
+.pending .status-badge {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  width: 100%;
+  background: rgba(226, 232, 240, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  margin-top: 1rem;
+  height: 20px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  border-radius: 12px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.item-actions button {
+  margin-left: 0.5rem;
+  padding: 0.8rem 1.7rem;
+  font-size: 1rem;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.item-actions button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left 0.5s;
+}
+
+.item-actions button:hover::before {
+  left: 100%;
+}
+
+.item-actions button:first-child {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+}
+
+.item-actions button:first-child:hover {
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.6);
+}
+
+.item-actions button:last-child {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(240, 147, 251, 0.4);
+}
+
+.item-actions button:last-child:hover {
+  background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(240, 147, 251, 0.6);
+}
+
+@media (max-width: 480px) {
+  .form-actions button,
+  .item-actions button {
+    padding: 0.7rem 1.4rem;
+    font-size: 0.95rem;
+  }
+  
+  .fitness-goals-page {
+    padding: 1.5rem 1rem;
+  }
+  
+  .fitness-goals-page h2 {
+    font-size: 2.2rem;
+  }
+}

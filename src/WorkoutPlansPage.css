@@ -1,0 +1,104 @@
+/* src/components/WorkoutPlansPage.css */
+
+.workout-plans-page {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-container {
+  display: flex;
+  gap: 40px;
+}
+
+.plan-form {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan-form h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.plan-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-form input,
+.plan-form textarea,
+.plan-form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.plan-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.plan-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.plan-form button:hover {
+  background-color: #0056b3;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.plan-list {
+  flex: 2;
+}
+
+.plan-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-list li {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-actions button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.plan-actions button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.plan-actions button:last-child {
+  background-color: #dc3545;
+  color: white;
+}

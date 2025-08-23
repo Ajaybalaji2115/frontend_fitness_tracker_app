@@ -1,0 +1,20 @@
+/* src/components/WorkoutPlanNav.css
+
+.workout-plan-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Indent the sub-menu for better readability */
+    /* padding-top: 5px;
+} */
+
+/* .workout-plan-nav .nav-link {
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.workout-plan-nav .nav-link:hover {
+    background-color: #2a313c;
+}  */
