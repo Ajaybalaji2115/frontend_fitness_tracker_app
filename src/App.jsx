@@ -199,6 +199,7 @@ function App() {
     <Router>
       <Routes>
         {/* Public Routes */}
+        <Route path="/" element={<Login setUserId={setUserId} setRole={setRole} />} />
         <Route path="/login" element={<Login setUserId={setUserId} setRole={setRole} />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -206,7 +207,7 @@ function App() {
 
         {/* Protected Routes */}
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/home" element={<Home />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/create-profile" element={<ProfileForm userId={userId} />} />
