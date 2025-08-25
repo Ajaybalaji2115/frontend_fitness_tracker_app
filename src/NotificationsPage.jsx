@@ -478,7 +478,7 @@ const NotificationsPage = ({ userId }) => {
     if (!userId) return;
 
     axios
-      .get(`http://localhost:8080/api/notifications/${userId}`)
+      .get(`https://fiitness-tracker-app.onrender.com/api/notifications/${userId}`)
       .then((res) => setNotifications(res.data))
       .catch((err) => console.error("Error fetching notifications:", err));
   }, [userId]);

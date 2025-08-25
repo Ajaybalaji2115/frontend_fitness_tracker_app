@@ -14,7 +14,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./WorkoutPlansPage.css";
 
-const API_URL = "http://localhost:8080/plans";
+const API_URL = "https://fiitness-tracker-app.onrender.com/plans";
 
 const WorkoutPlansPage = () => {
   const [plans, setPlans] = useState([]);

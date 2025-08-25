@@ -10,7 +10,7 @@ const ProgressInputForm = ({ userId, onProgressAdded }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8080/api/progress/me", {
+      .post("https://fiitness-tracker-app.onrender.com/api/progress/me", {
         userId,
         date,
         completionPercentage: parseFloat(completion),

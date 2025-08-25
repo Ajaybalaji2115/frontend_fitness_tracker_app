@@ -1063,7 +1063,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./FitnessGoalsPage.css";
 
-const API_URL = "http://localhost:8080/fitness-goals";
+const API_URL = "https://fiitness-tracker-app.onrender.com/fitness-goals";
 
 const FitnessGoalsPage = () => {
   const [goals, setGoals] = useState([]);

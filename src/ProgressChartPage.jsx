@@ -19,7 +19,7 @@ function ProgressChartPage() {
   const [daysRange, setDaysRange] = useState("all");
 
   const fetchProgress = () => {
-    let url = `http://localhost:8080/api/progress/user/${userId}`;
+    let url = `https://fiitness-tracker-app.onrender.com/api/progress/user/${userId}`;
     if (daysRange !== "all") {
       url += `?days=${daysRange}`;
     }

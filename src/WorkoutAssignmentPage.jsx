@@ -2353,7 +2353,7 @@ const WorkoutAssignmentPage = () => {
   useEffect(() => {
     // Fetch all users for trainers/admins
     if (role === "TRAINER" || role === "ADMIN") {
-      axios.get(`http://localhost:8080/users/role/GUEST?page=0&size=50`)
+      axios.get(`https://fiitness-tracker-app.onrender.com/users/role/GUEST?page=0&size=50`)
         .then(res => setUsers(res.data.content))
         .catch(err => console.error("Error fetching users:", err));
     }
@@ -2365,8 +2365,8 @@ const WorkoutAssignmentPage = () => {
   const fetchAssignments = () => {
     // For users, fetch their own assignments
     let url = role === "USER"
-      ? `http://localhost:8080/api/workout-assignments/my-assignments?userId=${userId}`
-      : `http://localhost:8080/api/workout-assignments/all`; // trainers/admins see all assignments
+      ? `https://fiitness-tracker-app.onrender.com/api/workout-assignments/my-assignments?userId=${userId}`
+      : `https://fiitness-tracker-app.onrender.com/api/workout-assignments/all`; // trainers/admins see all assignments
 
     axios.get(url)
       .then(res => setAssignments(res.data))
@@ -2395,11 +2395,11 @@ const WorkoutAssignmentPage = () => {
     };
 
     if (editingId) {
-      axios.put(`http://localhost:8080/api/workout-assignments/${editingId}`, payload)
+      axios.put(`https://fiitness-tracker-app.onrender.com/api/workout-assignments/${editingId}`, payload)
         .then(() => { resetForm(); fetchAssignments(); })
         .catch(err => console.error("Error updating assignment:", err));
     } else {
-      axios.post("http://localhost:8080/api/workout-assignments", payload)
+      axios.post("https://fiitness-tracker-app.onrender.com/api/workout-assignments", payload)
         .then(() => { resetForm(); fetchAssignments(); })
         .catch(err => console.error("Error assigning workout:", err));
     }
@@ -2411,7 +2411,7 @@ const WorkoutAssignmentPage = () => {
   };
 
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:8080/api/workout-assignments/${id}`)
+    axios.delete(`https://fiitness-tracker-app.onrender.com/api/workout-assignments/${id}`)
       .then(() => fetchAssignments())
       .catch(err => console.error("Error deleting assignment:", err));
   };

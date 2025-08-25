@@ -650,7 +650,7 @@ export default function ExerciseLibrary() {
 
   const fetchExercises = async () => {
     try {
-      const res = await axios.get("http://localhost:8080/exercise-library");
+      const res = await axios.get("https://fiitness-tracker-app.onrender.com/exercise-library");
       setExercises(res.data);
     } catch (error) {
       console.error("Error fetching exercises:", error.response?.data || error);
@@ -665,7 +665,7 @@ export default function ExerciseLibrary() {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:8080/exercise-library",
+        "https://fiitness-tracker-app.onrender.com/exercise-library",
         formData,
         { headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` } }
       );
@@ -679,7 +679,7 @@ export default function ExerciseLibrary() {
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this exercise?")) return;
     try {
-      await axios.delete(`http://localhost:8080/exercise-library/${id}`, {
+      await axios.delete(`https://fiitness-tracker-app.onrender.com/exercise-library/${id}`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       fetchExercises();

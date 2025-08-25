@@ -23,7 +23,7 @@
 // export default new UserProfileService();
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/profiles";
+const API_URL = "https://fiitness-tracker-app.onrender.com/api/profiles";
 
 class UserProfileService {
   createProfile(profile) {

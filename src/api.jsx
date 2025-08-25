@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://fiitness-tracker-app.onrender.com/", // your backend URL
+  baseURL: "https://fiitness-tracker-app.onrender.com", // your backend URL
 });
 
 // Automatically attach JWT if present

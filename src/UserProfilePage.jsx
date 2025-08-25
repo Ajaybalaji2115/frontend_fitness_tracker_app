@@ -120,7 +120,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./UserProfilePage.css";
 
-const API_URL = "http://localhost:8080/user-profiles";
+const API_URL = "https://fiitness-tracker-app.onrender.com/user-profiles";
 
 const UserProfilePage = () => {
   const [profile, setProfile] = useState(null);
